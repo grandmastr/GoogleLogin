@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 10%; }
+  body #accountForm {
+    max-width: 38%;
+    height: 470px;
+    margin: auto;
+    box-shadow: 0 1px 10px 0 grey;
+    padding: 3%; }
+    @media (max-width: 700px) {
+      body #accountForm {
+        max-width: 80%;
+        height: 90%; } }
+    body #accountForm img {
+      height: 80px;
+      margin-left: -4%;
+      margin-bottom: -8%; }
+    body #accountForm h, body #accountForm h6 {
+      color: #5a8df4;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: left;
+      line-heignt: 1.333; }
+    body #accountForm h5 {
+      font-size: 13px;
+      margin-bottom: 10%; }
+    body #accountForm h6 {
+      font-size: 15px;
+      margin-bottom: 10%; }
+    body #accountForm p {
+      font-size: 12px;
+      margin-bottom: 10%; }
+      body #accountForm p a {
+        color: #5a6df4;
+        text-decoration: none; }
+        body #accountForm p a:hover {
+          color: #5a6df4; }
+    body #accountForm .form-group {
+      border-bottom: 2px solid #5a8df4; }
+      body #accountForm .form-group label {
+        display: block;
+        color: #5a8df4 !important;
+        font-size: 12px; }
+      body #accountForm .form-group input[type="text"], body #accountForm .form-group input[type="text"]:focus, body #accountForm .form-group input[type="password"]:focus, body #accountForm .form-group input[type="text"]:hover, body #accountForm .form-group input[type="password"]:hover, body #accountForm .form-group input[type="password"] {
+        box-shadow: none;
+        width: 100%;
+        outline: none;
+        border: none; }
+        body #accountForm .form-group input[type="text"]:focus, body #accountForm .form-group input[type="password"]:focus, body #accountForm .form-group input[type="password"]:focus {
+          box-shadow: none; }
+  body .btn-google {
+    background: #5a8df4;
+    color: #fff;
+    width: 100%;
+    font-weight: bold; }
+  body #footer {
+    position: absolute;
+    bottom: -12%;
+    right: 34%;
+    max-width: 38%; }
+    body #footer h5 {
+      position: absolute;
+      bottom: -22%;
+      left: -272px; }
+    body #footer ul {
+      list-style-type: none;
+      margin: auto; }
+      body #footer ul li a {
+        color: grey;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 15px; }
+        body #footer ul li a:hover {
+          color: grey; }
+    @media (max-width: 700px) {
+      body #footer {
+        display: none; } }
+
+/*# sourceMappingURL=style.css.map */
